@@ -1,0 +1,41 @@
+{
+  "name": "webpack-react-app",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "webpack server",
+    "prettier:format": "prettier --write ."
+  },
+  "author": {
+    "name": "Nikhil Choudhary",
+    "email": "nc1336282@gmail.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@types/react": "^17.0.37",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^8.0.1",
+    "path": "^0.12.7",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "prettier": "^2.5.0",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
