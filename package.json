@@ -6,6 +6,8 @@
   "scripts": {
     "webpack": "webpack",
     "start": "webpack server",
+    "build": "webpack",
+    "test": "jest",
     "prettier:format": "prettier --write ."
   },
   "author": {
@@ -18,19 +20,22 @@
     "@babel/plugin-proposal-class-properties": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "@types/react": "^17.0.37",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "image-webpack-loader": "^8.0.1",
+    "jest": "^27.4.4",
     "path": "^0.12.7",
+    "prettier": "^2.5.0",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
-    "prettier": "^2.5.0",
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
